@@ -1,0 +1,19 @@
+Tiger Zha
+last 4 digits: 4458
+
+1. What are primary and foreign keys? Explain in detail. What are the implications of using these keys in different tables?
+
+Primary Keys are a set of values that uniquely identifies each row in a table.
+Foreign Keys are a set of values that uniquely identifies a row in a different table.
+In general you would use a foreign key to link two separate tables together. In other words, foreign keys are a reference to primary keys in another table. 
+
+
+2. What is data dictionary? What is it used for?
+Data Dictionary is a set of sql tables that hold information about objects in the database. It is used as a reference site for developers to understand the layout/purpose  and definition of the database.
+
+3. What is the significance of creating a column in a table? What is the significance of a row in a table?
+A column usually defines the type of the data within the column, this data will be written in the row corresponding to the column. The row contains the actual data that is inside each column. 
+
+4. What is referential integrity and how is it used in relational databases for adding, removing and updating rows?
+It is a guideline that states that for every foreign key, there is a connected row with the corresponding primary key. This ensures that you do not access a null value. It is used 
+by keeping table relationships consistent if you add, remove or update a row, you must also maintain the foreign key column accordingly.
